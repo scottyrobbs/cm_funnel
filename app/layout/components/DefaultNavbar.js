@@ -45,9 +45,7 @@ export const DefaultNavbar = () => (
             </NavItem>
         </Nav>
         <Nav navbar className="ml-auto">
-            <NavbarActivityFeed />
-            <NavbarMessages className="ml-2" />
-            <NavbarUser className="ml-2" />
+        <NavbarUser className="ml-2" />
         </Nav>
     </Navbar>
 );
